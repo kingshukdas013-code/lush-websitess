@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Lush Beauty</title>
+
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #f6f6f6;
+      color: #222;
+    }
+
+    header {
+      background: #0a3d2e;
+      color: white;
+      padding: 60px 20px;
+      text-align: center;
+    }
+
+    header h1 {
+      font-size: 40px;
+      margin-bottom: 10px;
+    }
+
+    header p {
+      font-size: 18px;
+    }
+
+    .btn {
+      display: inline-block;
+      margin-top: 20px;
+      padding: 12px 24px;
+      background: #1dd1a1;
+      color: black;
+      text-decoration: none;
+      border-radius: 6px;
+      font-weight: bold;
+    }
+
+    section {
+      padding: 50px 20px;
+      max-width: 1100px;
+      margin: auto;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+    }
+
+    .card {
+      background: white;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 5px 10px rgba(0,0,0,0.1);
+    }
+
+    footer {
+      background: #0a3d2e;
+      color: white;
+      text-align: center;
+      padding: 20px;
+    }
+  </style>
+</head>
+
+<body>
+
+<header>
+  <h1>Lush Natural Beauty</h1>
+  <p>Fresh • Handmade • Cruelty-Free</p>
+  <a href="#contact" class="btn">Shop Now</a>
+</header>
+
+<section>
+  <h2>About Us</h2>
+  <p>
+    We create fresh, handmade beauty products using natural ingredients.
+    Our mission is ethical beauty without compromise.
+  </p>
+</section>
+
+<section>
+  <h2>Our Products</h2>
+  <div class="grid">
+    <div class="card">
+      <h3>Skincare</h3>
+      <p>Face masks, cleansers & moisturizers.</p>
+    </div>
+    <div class="card">
+      <h3>Haircare</h3>
+      <p>Shampoos & conditioners made fresh.</p>
+    </div>
+    <div class="card">
+      <h3>Bath & Body</h3>
+      <p>Bath bombs, soaps & body lotions.</p>
+    </div>
+  </div>
+</section>
+
+<section>
+  <h2>Why Choose Us</h2>
+  <ul>
+    <li>100% cruelty-free</li>
+    <li>Fresh handmade products</li>
+    <li>Eco-friendly packaging</li>
+  </ul>
+</section>
+
+<section id="contact">
+  <h2>Contact Us</h2>
+  <p>Email: hello@lushbeauty.com</p>
+  <p>WhatsApp: +91 9XXXXXXXXX</p>
+</section>
+
+<footer>
+  <p>© 2026 Lush Beauty. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
